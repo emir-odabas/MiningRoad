@@ -13,6 +13,7 @@ obj/
 *.log
 *.bak
 *.tmp
+*.exe
 .vs/
 /.idea/
 /.vscode/
@@ -34,3 +35,5 @@ obj/
 
 # Configuration files (optional, if sensitive)
 *.env
+*.gitignore
+*.vsconfig
