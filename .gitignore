@@ -7,17 +7,30 @@
 *.unityproj
 /Build/
 /Builds/
-/bin/
-/obj/
+# Build and temporary files
+bin/
+obj/
 *.log
 *.bak
 *.tmp
-*.dll
-*.exe
-*.pdb
-*.mdb
 .vs/
 /.idea/
 /.vscode/
 /Cache/
 *.sln
+# User Settings
+UserSettings/
+
+# Visual Studio files
+.vs/
+.vscode/
+
+# Build and temporary files
+bin/
+obj/
+*.log
+*.bak
+*.tmp
+
+# Configuration files (optional, if sensitive)
+*.env
