@@ -1,39 +1,40 @@
-/Library/
-/Temp/
-/obj/
-*.csproj
-*.suo
+# User-specific files
 *.user
-*.unityproj
-/Build/
-/Builds/
-# Build and temporary files
-bin/
+*.suo
+*.userprefs
+
+# User Settings
+UserSettings/
+
+# Unity generated folders
+Library/
+Temp/
+Build/
+Builds/
 obj/
+bin/
+
+# Build and temporary files
 *.log
 *.bak
 *.tmp
 *.exe
-.vs/
-/.idea/
-/.vscode/
-/Cache/
-*.sln
-# User Settings
-UserSettings/
 
-# Visual Studio files
+# Visual Studio and IDE-specific files
 .vs/
+.idea/
 .vscode/
 
-# Build and temporary files
-bin/
-obj/
-*.log
-*.bak
-*.tmp
+# Visual Studio Code specific settings
+.vscode/
+
+# Package Manager
+Packages/
 
 # Configuration files (optional, if sensitive)
 *.env
-*.gitignore
-*.vsconfig
+
+# Dotnet files
+*.csproj
+*.unityproj
+*.sln
